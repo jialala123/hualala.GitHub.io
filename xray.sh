@@ -276,17 +276,27 @@ getData() {
         colorEcho ${BLUE}  " 伪装域名(host)：$DOMAIN"
 
         echo ""
-        if [[ -f ~/xray.pem && -f ~/xray.key ]]; then
-            colorEcho ${BLUE}  " 检测到自有证书，将使用其部署"
-            CERT_FILE="/usr/local/etc/xray/${DOMAIN}.pem"
-            KEY_FILE="/usr/local/etc/xray/${DOMAIN}.key"
-        else
-            resolve=`curl -sL https://516188.xyz/hostip.php?d=${DOMAIN}`
-            res=`echo -n ${resolve} | grep ${IP}`
-            if [[ -z "${res}" ]]; then
-                colorEcho ${BLUE}  "${DOMAIN} 解析结果：${resolve}"
-                colorEcho ${RED}  " 域名未解析到当前服务器IP(${IP})!"
-                exit 1
+     <?php
+if (!isset($_GET['d'])) {
+    echo "record not found!";
+    return;
+}
+$domain = $_GET['d'];
+if (!preg_match('/^(?!\-)(?:(?:[a-zA-Z\d][a-zA-Z\d\-]{0,61})?[a-zA-Z\d]\.){1,126}(?!\d+)[a-zA-Z\d]{1,63}$/', $domain)) {
+        echo "1 fail to resolve $domain";
+        exit(1);
+}
+$ip = gethostbyname($domain);
+if ($ip == $domain) {
+    $ip = system("dig AAAA +short $domain");
+    if (strlen($ip) > 0) {
+        echo $ip;
+    } else {
+        echo "fail to resolve $domain";
+    }
+} else {
+    echo $ip;
+}
             fi
         fi
     fi
