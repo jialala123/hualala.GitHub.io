@@ -1,37 +1,126 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
 
-You can use the [editor on GitHub](https://github.com/jialala123/hualala.GitHub.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="renderer" content="webkit">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<title>哈哈哈主页</title>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="top">
+				<div id="logo">
+					<img class="logo" src="img/logo.png">
+					<!-- <h1>导航测试</h1> -->
+					<div id="kg-btn" class="">
+						<input class='tgl tgl-flip' id='qieh' type='checkbox' />
+						<label class='tgl-btn' data-tg-off='Guide' data-tg-on='局域网' for='qieh'></label>
+					</div>
+				</div>
+			</div>
+			<div id="main">
+			<!-- 外网访问地址 -->
+				<div id="app" class="app animated fadeInLeft">
+					<ul>
+						<li>
+							<a href="https://blog.fatedata.net:888" target="_blank"><img class="shake" src="img/png/AppStore.png" /><strong>博客</strong></a>
+						</li>
+						<li>
+							<a href="https://cloud.fatedata.net:888/login?redirect_url=/apps/dashboard/" target="_blank"><img class="shake" src="img/png/iCloud-Drive.png" /><strong>nextcloud云盘</strong></a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img class="shake" src="img/png/Music.png" /><strong>音乐</strong></a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img class="shake" src="img/png/Photos.png" /><strong>相册</strong></a>
+						</li>
+						<li>
+							<a href="https://mv.fatedata.net:888" target="_blank"><img class="shake" src="img/png/Videos.png" /><strong>视频</strong></a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img class="shake" src="img/png/Thunder.png" /><strong>迅雷远程</strong></a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img class="shake" src="img/png/Downloads.png" /><strong>AriaNg下载</strong></a>
+						</li>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+						<li>
+							<a href="http://op2.fatedata.net:666" target="_blank"><img class="shake" src="img/png/Transmission.png" /><strong>Openwrt</strong></a>
+						</li>
+						<li>
+							<a href="https://jd.fatedata.net:888" target="_blank"><img class="shake" src="img/png/Settings.png" /><strong>qh</strong></a>
+						</li> 
+						
+						<li>
+							<a href="http://jd2.fatedata.net:666" target="_blank"><img class="shake" src="img/png/FontExplorer-X.png" /><strong>hk1</strong></a>
+						</li>
+						  <li>
+							<a href="http://unraid.fatedata.net:666/login" target="_blank"><img class="shake" src="img/png/Podcats.png" /><strong>Unraid Nas</strong></a>
+						</li>
+						<li>
+							<a href="https://qh.fatedata.net:888" target="_blank"><img class="shake" src="img/png/FaceTime.png" /><strong>群晖nas</strong></a>
+						</li> 
+					</ul>
+				</div>
+				<!-- 内网网访问地址 -->
+				<div id="app1" class="app animated fadeInRight">
+					<ul>
+						<li>
+							<a href="https://192.168.91.2:8899" target="_blank"><img class="shake" src="img/png/AppStore.png" /><strong>博客</strong></a>
+						</li>
+						<li>
+							<a href="http://192.168.91.2:8904/apps/dashboard/" target="_blank"><img class="shake" src="img/png/iCloud-Drive.png" /><strong>nextcloud云盘</strong></a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img class="shake" src="img/png/Music.png" /><strong>音乐</strong></a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img class="shake" src="img/png/Photos.png" /><strong>相册</strong></a>
+						</li>
+						<li>
+							<a href="http://192.168.91.2:8096/web/index.html#!/home.html" target="_blank"><img class="shake" src="img/png/Videos.png" /><strong>Jellyfin</strong></a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img class="shake" src="img/png/Thunder.png" /><strong>迅雷远程</strong></a>
+						</li>
+						<li>
+							<a href="http://192.168.91.2:6801" target="_blank"><img class="shake" src="img/png/Downloads.png" /><strong>AriaNg下载</strong></a>
+						</li>
+						<li>
+							<a href="http://192.168.91.92" target="_blank"><img class="shake" src="img/png/Transmission.png" /><strong>Openwrt</strong></a>
+						</li>
+						<li>
+							<a href="http://192.168.91.2:5678" target="_blank"><img class="shake" src="img/png/Settings.png" /><strong>qh</strong></a>
+						</li>
+						<li>
+							<a href="http://192.168.91.92:5678" target="_blank"><img class="shake" src="img/png/FontExplorer-X.png" /><strong>hk1</strong></a>
+						</li>
+						<li>
+							<a href="http://192.168.91.91/login" target="_blank"><img class="shake" src="img/png/Podcats.png" /><strong>Unraid Nas</strong></a>
+						</li>
+						<li>
+							<a href="http://192.168.91.2:5000" target="_blank"><img class="shake" src="img/png/FaceTime.png" /><strong>群晖nas</strong></a>
+						</li>
+					</ul>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="footer-contents">
+				<div class="links">
+					<div class="line">
+						<li>
+						<a href="#" target="_blank">哈哈哈</a>&nbsp;&nbsp;&nbsp;<span class="footer-link-separator"></span>&nbsp;&nbsp;&nbsp;<span class="copyright">╰(*°▽°*)╯</span>
+						</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+	</body>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jialala123/hualala.GitHub.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
