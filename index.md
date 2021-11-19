@@ -115,5 +115,5 @@
 				<div class="links">
 					<div class="line">
 						<li>
-						<a href="#" target="_blank"></a>&nbsp;&nbsp;&nbsp;<span class="footer-link-separator"></span>&nbsp;&nbsp;&nbsp;<span class="copyright"></span>
+						<a href="#" target="_blank"></a><span class="footer-link-separator"></span><span class="copyright"></span>
 		<script src="js/jquery.min.js"></script>
