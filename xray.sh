@@ -406,7 +406,7 @@ getData() {
         colorEcho $BLUE " 请选择伪装站类型:"
         echo "   1) 静态网站(位于/usr/share/nginx/html)"
         echo "   2) 小说站(随机选择)"
-        echo "   3) 美女站(https://imeizi.me)"
+        echo "   3) 耳聆(https://www.ear0.com)"
         echo "   4) 高清壁纸站(https://bing.imeizi.me)"
         echo "   5) 自定义反代站点(需以http或者https开头)"
         read -p "  请选择伪装网站类型[默认:高清壁纸站]" answer
@@ -434,7 +434,7 @@ getData() {
                 done
                 ;;
             3)
-                PROXY_URL="https://imeizi.me"
+                PROXY_URL="https://www.ear0.com"
                 ;;
             4)
                 PROXY_URL="https://bing.imeizi.me"
